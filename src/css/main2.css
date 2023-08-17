@@ -55,8 +55,6 @@ body {
       margin-bottom: 0; }
   
 
-   /*  CSS Helper Class
-   */
   .clear:before, .clear:after {
     content: " ";
     display: table; }
@@ -177,9 +175,6 @@ body {
   .preloader.active .loading-mask {
     width: 0; }
   
-  /*------------------------------------------------
-      Start Styling
-  -------------------------------------------------*/
   .texto_index{margin-top:20px; color: white;}
   
   .page-close {
@@ -256,7 +251,7 @@ body {
       text-transform: uppercase; }
   
   /*------------------------------------------------
-      Home Page
+      Home 
   -------------------------------------------------*/
   
   .hexagono-item:first-child {
@@ -269,7 +264,7 @@ body {
     background-size: cover;
     vertical-align: middle; }
     .page-home .overlay {
-      background-color: rgb(0 0 0 / 23%);
+      background-color: rgba(0, 0, 0, 0.164);
   }
   
   /* End of container */
@@ -441,9 +436,8 @@ body {
       -o-transform: rotate(30deg) translate(87px, -80px);
       transform: rotate(30deg) translate(87px, -80px);
   }
-  /*------------------------------------------------
-      Welcome Page
-  -------------------------------------------------*/
+
+
   .author-image-large {
     position: absolute;
     right: 0;

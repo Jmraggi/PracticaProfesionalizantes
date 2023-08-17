@@ -4,6 +4,7 @@
   }
   
   body {
+
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -73,3 +74,167 @@
   #seguridad {
     background-image: url(../image/seguridad.jpg);
   }
+
+
+
+/* Importar la fuente "Ubuntu" desde Google Fonts */
+@import 'https://fonts.googleapis.com/css?family=Ubuntu';
+
+/* Estilos para el fondo del cuerpo */
+body {
+    background: #eee;
+}
+
+/* Estilos para el texto */
+.text {
+    color: white;
+}
+
+/* Estilos para el contenedor del menú */
+.box-menu {
+    position: absolute;
+    cursor: pointer;
+    background: #49A4EB;
+    width: 60px;
+    height: 60px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 60px;
+    transition: height 0.4s;
+    z-index: 1;
+}
+
+/* Estilos cuando el menú está expandido */
+.full-menu {
+    height: 300px;
+}
+
+/* Contenedor general */
+.wrapper {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+/* Icono de "hamburguesa" */
+.hamburger {
+    position: absolute;
+    left: 22px;
+    top: 22px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Líneas dentro del icono de hamburguesa */
+.hamburger span {
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+/* Posiciones y animaciones para las líneas del icono de hamburguesa */
+.hamburger span:nth-child(1) { top: 3px; }
+.hamburger span:nth-child(2) { top: 8px; }
+.hamburger span:nth-child(3) { top: 8px; }
+.hamburger span:nth-child(4) { top: 13px; }
+.hamburger.active span:nth-child(1) { width: 0; margin-left: 8px; }
+.hamburger.active span:nth-child(2) { transform: rotate(45deg); }
+.hamburger.active span:nth-child(3) { transform: rotate(-45deg); }
+.hamburger.active span:nth-child(4) { width: 0; margin-left: 8px; }
+
+/* Estilos para el menú principal */
+.menu {
+    position: relative;
+    left: -9999px;
+}
+
+/* Estilos para los enlaces del menú */
+.menu a {
+    white-space: nowrap;
+    position: relative;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    width: 150px;
+    height: 58px;
+    line-height: 58px;
+    font-family: Ubuntu;
+}
+
+/* Efecto después del enlace en el menú */
+.menu a::after {
+    content: '';
+    position: absolute;
+    left: 57px;
+    top: 29px;
+    height: 0px;
+    width: 3px;
+    background: #fff;
+    transition: height 0.3s, top 0.3s;
+}
+
+/* Efecto después del enlace activo en el menú */
+.menu a.active::after {
+    top: 19px;
+    height: 20px;
+}
+
+/* Estilos para el texto y los iconos dentro de los enlaces del menú */
+.menu a span {
+    opacity: 0;
+    display: inline-block;
+    font-size: 14px;
+}
+
+/* Estilos para el ícono dentro de los enlaces del menú */
+.menu a span.icon {
+    transform: scale(0.5);
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    width: 60px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+/* Estilos para el texto dentro de los enlaces del menú */
+.menu a span.text {
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    margin-left: 40px;
+    transition: margin 0.3s, opacity 0.3s, transform 0.3s;
+}
+
+/* Estilos para el menú expandido */
+.full-menu .menu {
+    left: 0;
+}
+
+/* Efecto al pasar el cursor sobre los enlaces en el menú expandido */
+.full-menu .menu a:hover span {
+    opacity: 1;
+}
+
+/* Estilos para los iconos dentro de los enlaces en el menú expandido */
+.full-menu .menu a span {
+    opacity: 0.8;
+}
+
+/* Estilos para el ícono dentro de los enlaces en el menú expandido */
+.full-menu .menu a span.icon {
+    transform: scale(1.1);
+}
+
+/* Estilos para el texto dentro de los enlaces en el menú expandido */
+.full-menu .menu a span.text {
+    margin-left: 25px;
+}
+
+/* Efectos de animación para cada enlace en el menú */
+.menu a:nth-child(1) span { transition: all 0.5s 0.1s, opacity 0.5s 0s, transform 0.5s 0s; }
+.menu a:nth-child(2) span { transition: all 0.5s 0.15s, opacity 0.5s 0s, transform 0.5s 0s; }
+.menu a:nth-child(3) span { transition: all 0.5s 0.2s, opacity 0.5s 0s, transform 0.5s 0s; }
+.menu a:nth-child(4) span { transition: all 0.5s 0.25s, opacity 0.5s 0s, transform 0.5s 0s; }
