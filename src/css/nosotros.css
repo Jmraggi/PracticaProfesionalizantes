@@ -1,0 +1,81 @@
+/* ============================  Nosotros  =====================================*/
+body{
+    background-image: url('../image/fondo.svg');
+    background-size: cover;
+
+}
+
+.container {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.box-menu {
+position: relative !important;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.3rem;
+  width: 20%;
+  margin: 27px;
+  max-width: 300px;
+  background-color: #1b2028;
+  border-radius: 16px;
+  position: relative;
+  border: 3px solid transparent;
+  background-clip: padding-box;
+  text-align: center;
+  color: #f1f3f3;
+  background-image: linear-gradient(135deg, rgba(117, 46, 124, 0.35), rgba(115, 74, 88, 0.1) 15%, #1b2028 20%, #1b2028 100%);
+}
+.profile:after {
+  content: "";
+  display: block;
+  top: -3px;
+  left: -3px;
+  bottom: -3px;
+  right: -3px;
+  z-index: -1;
+  position: absolute;
+  border-radius: 16px;
+  background-image: linear-gradient(135deg, #1700eb, #292a79 20%, #1b2028 30%, #2c2c3e 100%);
+}
+
+.profile-image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 125px;
+  height: 125px;
+  position: relative;
+}
+.profile-image img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.profile-username {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.profile-user-handle {
+  color: #7d8396;
+}
+
+
+
+
+
