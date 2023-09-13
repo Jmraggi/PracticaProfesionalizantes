@@ -1,4 +1,4 @@
-/* ============================  Nosotros  =====================================*/
+/* ============================  NOSOTROS  =====================================*/
 body{
     background-image: url('../image/fondo.svg');
     background-size: cover;
@@ -8,10 +8,6 @@ body{
 .container {
     display: flex;
     align-items: flex-start; 
-}
-
-.box-menu {
-position: relative !important;
 }
 
 .cards-container {

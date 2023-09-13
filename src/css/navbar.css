@@ -1,12 +1,11 @@
-/* Importar la fuente "Ubuntu" desde Google Fonts */
+/* ============================  NAVBAR  =====================================*/
+
 @import 'https://fonts.googleapis.com/css?family=Ubuntu';
 
-/* Estilos para el texto */
 .text {
     color: white;
 }
 
-/* Estilos para el contenedor del menú */
 .box-menu {
     position: absolute;
     cursor: pointer;
@@ -19,19 +18,17 @@
     z-index: 1;
 }
 
-/* Estilos cuando el menú está expandido */
+
 .full-menu {
-    height: 300px;
+    height: 360px;
 }
 
-/* Contenedor general */
 .wrapper {
     position: relative;
     width: 60px;
     height: 60px;
 }
 
-/* Icono de "hamburguesa" */
 .hamburger {
     position: absolute;
     left: 22px;
@@ -40,7 +37,7 @@
     height: 16px;
 }
 
-/* Líneas dentro del icono de hamburguesa */
+
 .hamburger span {
     position: absolute;
     display: inline-block;
