@@ -8,8 +8,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
-    <link rel="stylesheet" href="src/css/contacto.css">
+    <link rel="stylesheet" href="src/css/ventas.css">
     <link rel="stylesheet" href="src/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
 </head>
@@ -36,50 +37,25 @@
         </div>
     <div class="container">
 
-        <div class="row p-5">
-            <div class="col-md-4">
-                <div class="title">DIRECCIÓN</div>
-                <p>Buenos Aires 4444</p>
-                <p>Mar del Plata</p>
-                <p>Buenos Aires, Argentina</p>               
-            </div>
-            
-            <div class="col-md-4">
-                <div class="title">REDES SOCIALES</div>
-                <div class="row pt-2">
-                    <div class="col-md-6">
-                        <a href="https://www.facebook.com/pc.mardel"><i class="fa-brands fa-facebook"></i></a>
-                    </div>
-                    <div class="col-md-6">
-                        <a href="https://www.instagram.com/pcmardel/"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="title">CONTACTO</div>
-                <p>(0223)-4940731</p>
-                <p>Lunes a Viernes 9hs a 12hs / 15hs a 18hs</p>
-                <p>Email: info@pcmardel.com.ar</p>   
-            </div>
-                
-        </div>
-        
-            <div class="row p-5">
-                <div class="col-md-2"></div>
-                <div class="col-md-10">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.9790427670673!2d-57.5621271239899!3d-38.02426804609821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584de849a3e80e5%3A0x19313fbac3d16b5d!2sPC%20Mardel%20Servicio%20T%C3%A9cnico!5e0!3m2!1ses!2sar!4v1694605829192!5m2!1ses!2sar" width="900" height="390" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>              
-                </div>
-                <div class="col-md-1"></div>
-            </div>
-            
-            
-        </div>
+  
+        <!-- Carrito (para posicionar en el navbar despues) -->
+    <div id="carrito">
+        <div id="listaCarrito"></div>
+        <div id="precioFinal"></div>
+    </div>
 
+  <!-- Las cartas de los productos -->
+  <div class="container py-3">
+    <div class="row" id="cartaProducto"></div>
+  </div>
         
 
       
 
     <script src="src/js/navbar.js"></script>
+    <script src="src/js/ventas.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

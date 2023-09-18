@@ -1,0 +1,54 @@
+/* ============================  VENTAS  =====================================*/
+
+
+body{
+    background-image: url('../image/fondo.svg');
+    background-size: cover;
+
+}
+
+
+#carrito{
+    background-color: rgba(102, 103, 103, 0.778);
+    width: 30vw;
+    position:absolute;
+    top: 15;
+    right: 0;
+    z-index: 1;
+}
+
+.tituloCarrito{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    font-family: "Segoe IU", sans-serif;
+    font-weight: 700;
+}
+
+
+.carro{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+}
+
+.btn{
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.card-body{
+    padding: 0px;
+}
+.card-title{
+    margin-bottom: 0px;
+}
+.card-body {
+    margin-bottom: 0px; 
+}
+.card-text {
+    margin-bottom: 0px; 
+}

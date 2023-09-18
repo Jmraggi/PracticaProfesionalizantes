@@ -1,0 +1,22 @@
+[
+    {"id":0, "nombre": "SSD Kingston 240GB", "precio": 15899, "calidad": "Memoria" , "img": "src/image/carrito/SSD.jpg"},   
+    {"id":1, "nombre": "SSD Kingston 480GB", "precio": 22999, "calidad": "Memoria" , "img": "src/image/carrito/SSD2.jpg"},  
+    {"id":2, "nombre": "SSD Kingston 960GB", "precio": 39499, "calidad": "Memoria" , "img": "src/image/carrito/SSD3.jpg"},  
+    {"id":3, "nombre": "SSD PNY 480GB", "precio": 21999, "calidad": "Memoria" , "img": "src/image/carrito/SSD4.jpg"},  
+    {"id":4, "nombre": "Memoria RAM Fury 8GB", "precio": 18211, "calidad": "Ram", "img": "src/image/carrito/RAM1.jpg"},
+    {"id":5, "nombre": "Memoria RAM Fury 16GB", "precio": 31846, "calidad": "Ram", "img": "src/image/carrito/RAM2.jpg"},
+    {"id":6, "nombre": "Memoria RAM A-Tech 8GB", "precio": 18779, "calidad": "Ram", "img": "src/image/carrito/RAM4.jpg"},
+    {"id":7, "nombre": "Memoria RAM A-Tech 16GB", "precio": 28465, "calidad": "Ram", "img": "src/image/carrito/RAM4.jpg"},
+    {"id":8, "nombre": "Memoria RAM So-dimm 4GB", "precio": 17487, "calidad": "Ram", "img": "src/image/carrito/RAM5.jpg"},
+    {"id":9, "nombre": "Memoria RAM So-dimm 4GB", "precio": 23247, "calidad": "Ram", "img": "src/image/carrito/RAM6.jpg"},
+    {"id":10, "nombre": "Motherbord Asrock A520m-hdv", "precio": 69999, "calidad": "Mother", "img": "src/image/carrito/MOTHER.jpg"},
+    {"id":11, "nombre": "Motherboard Am4 B450m", "precio": 87258, "calidad": "Mother", "img": "src/image/carrito/MOTHER2.jpg"},
+    {"id":12, "nombre": "Motherboard Msi H510m", "precio": 77999, "calidad": "Mother", "img": "src/image/carrito/MOTHER3.jpg"},
+    {"id":13, "nombre": "Motherboard Asus H610m-k", "precio": 98089, "calidad": "Mother", "img": "src/image/carrito/MOTHER4.jpg"},
+    {"id":14, "nombre": "Procesador AMD Ryzen3", "precio": 65850, "calidad": "Procesador", "img": "src/image/carrito/PROCESADOR.jpg"},
+    {"id":15, "nombre": "Procesador AMD Ryzen5", "precio": 188000, "calidad": "Procesador", "img": "src/image/carrito/PROCESADOR2.jpg"},
+    {"id":16, "nombre": "Procesador AMD Ryzen7", "precio": 254110, "calidad": "Procesador", "img": "src/image/carrito/PROCESADOR3.jpg"},
+    {"id":17, "nombre": "Procesador Intel Core-i3", "precio": 63000, "calidad": "Procesador", "img": "src/image/carrito/PROCESADOR4.jpg"},
+    {"id":18, "nombre": "Procesador Intel Core-i5", "precio": 188118, "calidad": "Procesador", "img": "src/image/carrito/PROCESADOR5.jpg"},
+    {"id":19, "nombre": "Procesador Intel Core-i7", "precio": 344900, "calidad": "Procesador", "img": "src/image/carrito/PROCESADOR6.jpg"}
+]
